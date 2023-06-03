@@ -139,4 +139,14 @@ console.log(cadena);
 */
 
 x+=2; //x=12
+console.log(x);
+x-=2; //x=10
+console.log(x);
+x*=2; //20
+console.log(x);
+x/=2; //10
+console.log(x);
+
+//se puede utilizar el operador de asignación += en las cadenas de caracteres
+
 
