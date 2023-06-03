@@ -148,5 +148,6 @@ x/=2; //10
 console.log(x);
 
 //se puede utilizar el operador de asignación += en las cadenas de caracteres
-
+cadena+=cadena2;
+console.log(cadena);
 
