@@ -42,11 +42,14 @@ function mostrarAlerta(){
     alert("Hola Chicos");
     document.getElementById("parrafo2").innerHTML= "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam quibusdam odio hic voluptate quam! Delectus, recusandae, consequuntur quibusdam debitis atque, itaque optio eveniet quae rerum consequatur explicabo non? Consectetur, atque!";
 }
+//la anterior función muestra una alerta e inserta un parrafo en el lugar dode se identifica id=parrafo2
+
 
 //Otra manera de llamarlo ->escucha de evento
 document.getElementById("boton1").onclick = function(){
     alert ("Hey Alerta Wey!");
 }
+
 
 //Paso de parametros a una función
 
