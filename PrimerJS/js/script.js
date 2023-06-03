@@ -132,3 +132,11 @@ console.log(cadena);
   console.log("El módulo entre 10/2 es" + modulo );
   let operacion=(x+2)*2 - (y/3);
   console.log(operacion);
+  /*
+  Operadores de asignación
+    = asigna
+    += incrementa el número 
+*/
+
+x+=2; //x=12
+
