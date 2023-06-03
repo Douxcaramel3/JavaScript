@@ -1,3 +1,22 @@
+/*Este script enseña:
+1.Comentarios
+2.Insertar codigos en el HTML con document.getElementById.innerHTML
+3.Leer código desde el HTML con document.getElementById.value
+4.Declarar variables - tipos de variables
+5.Asignar valores a variables
+6.Mostrar en la consola del navegador salidas
+7.Crear operaciones matemáticas básicas
+8.Declarar una función
+9.Llamar la función desde HTML
+10.Convertir un valor de cadena a uno entero con parserInt
+11.Incremento y decremento de valores con ++ y --
+12.Declarar constantes
+13.Carácteres de escape en cadena de caracteres
+14.Alertas
+15.Document.write 
+*/
+
+
 //comentarios de línea
 
 /*
@@ -150,4 +169,30 @@ console.log(x);
 //se puede utilizar el operador de asignación += en las cadenas de caracteres
 cadena+=cadena2;
 console.log(cadena);
+
+//operador de exponencial   
+x=y**10;
+console.log(x);
+//operador incremento   
+++y;
+console.log(y);
+//operador decremento
+--y;
+//salida en pantalla directamente insertando el texto en la última línea disponible
+document.write("El valor de y es "+y);
+
+/*
+
+    - Constantes - 
+    No cambian en el resto de programa, se declara con la "palabra reservada (propias del lenguaje)" const y se debe asignar su valor cuando es declarada.
+
+    Las palabras reservadas son: let, var, const, ...
+    */
+   const PI=3.141618;//las constantes se declaran en mayúsculas 
+   const MONEDA=5;
+
+   //área de un circulo area=r**2xPI
+
+   let area=(50**2)*PI;
+   console.log("El área de una circunferencia de radio 50 es  " + area);
 
