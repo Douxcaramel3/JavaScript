@@ -16,5 +16,9 @@ h1{
 #imgDni, .texto-centrado{
     text-align: center;
 
+}
 
+#msnError{
+    color: rgb(247, 11, 11);
+    font-style: italic;
 }
