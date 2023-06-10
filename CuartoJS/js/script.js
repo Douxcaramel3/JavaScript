@@ -55,3 +55,11 @@ function salidaH(){
   * Una estructura de control derivada de for es la estructura for...in. Su definición exacta implica el uso de objetos, que es un elemento de programación avanzada.
   * Estructura for... in adaptada a su uso en ARRAYS
   */
+
+ function mostrarDias(){
+    let dias=["Lunes", "Martes", "Miercoles", "Jueves", "Viernes", "Sábado", "Domingo"];
+    for(i in dias){
+        etiqueta="etiqueta"+i;
+        document.getElementById(etiqueta).innerHTML=dias[i];
+    }
+ }
