@@ -123,6 +123,25 @@ for (let i=0; i<colores.length; i++){
  if(i==indice){
 //cambiar el color a el div caja
 document.getElementById("caja").style.backgroundColor=colores[i];
- }
+document.getElementById("dia").style.color=colores[i];
+
 }
 }
+// recorrer el array con for of... for
+for(let i of colores){
+    //recorremos todos los elementos del array
+    document.getElementById("caja2").style.backgroundColor=i;
+    
+    document.getElementById("caja2").style.transition="width 2s, height 2s, transform 2s"
+    document.getElementById("caja2").style.transform="rotate(180deg)";
+}
+/**
+ transition-property: width;
+ transition-duration: 2s;
+ transition-property:height;
+ transition-delay: 2s;
+ */
+}
+
+
+
