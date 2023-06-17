@@ -130,8 +130,9 @@ document.getElementById("dia").style.color=colores[i];
 // recorrer el array con for of... for
 for(let i of colores){
     //recorremos todos los elementos del array
+    if(i=="pink")
     document.getElementById("caja2").style.backgroundColor=i;
-    
+
     document.getElementById("caja2").style.transition="width 2s, height 2s, transform 2s"
     document.getElementById("caja2").style.transform="rotate(180deg)";
 }
