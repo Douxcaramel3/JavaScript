@@ -1,0 +1,19 @@
+body{
+    width: 60%;
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(244,29,253,1) 50%, rgba(252,176,69,1) 100%);
+    margin: auto;
+    padding: 70px;
+}
+
+h1{
+    text-decoration: underline;
+    text-align: center;
+    text-decoration-color: rgb(16, 141, 124);
+    color: rgb(16, 141, 124);
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+h3{
+    text-align: justify;
+}
+
