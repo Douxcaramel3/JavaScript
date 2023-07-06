@@ -1,0 +1,23 @@
+.container{
+    width: 70%;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: auto; /* si no lo aplica colocar !important*/
+}
+
+.card{
+    width: 500px;
+    height: 250px;
+    border: 1px solid grey;
+    box-shadow: rgba(46, 240, 230, 0.4) -5px 5px, rgba(46, 240, 175, 0.3) -10px 10px, rgba(35, 206, 192, 0.2) -15px 15px, rgba(46, 240, 240, 0.1) -20px 20px, rgba(46, 49, 240, 0.05) -25px 25px;
+/* Para que el contenido esté centrado dentro de cada caja*/
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin: 40px auto;
+}
+.card p{
+    padding: 0 50px;
+    text-align: justify;
+}
+
