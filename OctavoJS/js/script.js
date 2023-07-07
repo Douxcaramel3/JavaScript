@@ -61,7 +61,7 @@ function calcularIva(productos){
     let iva=1.04
     return productos*iva
 }
-console.log (calcularIva(0.76).toFixed(2));
+console.log (calcularIva(0.76).toFixed(2)); //para que se redondee
 console.log (calcularIva(1.05).toFixed(2));
 console.log (calcularIva(2.35).toFixed(2));
 console.log (calcularIva(1.96).toFixed(2));

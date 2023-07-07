@@ -5,8 +5,8 @@
 }
 
 .card{
-    width: 500px;
-    height: 250px;
+    width: 80%;
+    height: 80%;
     border: 1px solid grey;
     box-shadow: rgba(46, 240, 230, 0.4) -5px 5px, rgba(46, 240, 175, 0.3) -10px 10px, rgba(35, 206, 192, 0.2) -15px 15px, rgba(46, 240, 240, 0.1) -20px 20px, rgba(46, 49, 240, 0.05) -25px 25px;
 /* Para que el contenido esté centrado dentro de cada caja*/
@@ -17,7 +17,7 @@
     margin: 40px auto;
 }
 .card p{
-    padding: 0 50px;
+    padding: 0 5%;
     text-align: justify;
 }
 
@@ -28,7 +28,47 @@
     justify-content: center;
     text-align: justify;
     margin: auto;
-    width: 40%;
+    width: 80%;
 
 }
+
+/**
+Css Media Queries => Responsive Design
+Media queries, mediante el cual podemos hacer excepciones para que unos determinados estilos de diseño sólo se apliquen si se cumplen una serie de condiciones, generalmente relacionados con el dispositivo mediante el cuál se está viendo la página.
+
+Las reglas media queries (tambien denominadas MQ a veces) son un tipo de reglas de CSS que permiten crear un bloque de código que sólo se procesará en los dispositivos que cumplan los criterios especificados como condición.
+
+La sintaxis de la regla @media es la siguiente:
+
+Regla:
+
+@media (<condición>)=>Si no se cumple la condición, se aplican los estilos de su interior.
+@media not (<condición>)=>Si no se cumple la condición, se aplican los estilos de su interior.
+
+Ejemplos:
+
+@media(*condición*) {
+    .container{
+        background: green;
+    }
+}
+
+@media not (*condición*){
+    .container{
+        background: red;
+    }
+}
+
+*/
+
+@media(width<=800){
+    .container{
+        width: 70%;
+    }
+    .card{
+        width: 60%;
+        height: auto;
+    }
+}
+
 

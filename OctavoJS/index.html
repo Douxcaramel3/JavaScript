@@ -4,9 +4,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Funciones en JavaScript</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    
+    <header>
+        <div class="logo">
+            <img src="img/logotipo.webp"></img>
+        </div>
+
+        <div class="titulo">
+            <h1>Tu envío más rápido que volando</h1>
+        </div>
+    </header>
+
+    <section>
+    <label for="peso">Indique el peso del artículo a enviar</label>
+    <input type="number" step="0.1" id="peso" required></input>
+    <button type="submit" onclick="calcular()" class="boton">Precio final</button>
+
+        <h3 id="resultado"></h3>
+
+</section>
 
 
     <script src="js/script.js"></script>

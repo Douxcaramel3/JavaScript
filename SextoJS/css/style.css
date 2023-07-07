@@ -3,22 +3,65 @@ body{
     background-color: lightpink;
     color: lightseagreen;
     font-size: large;
+    margin: auto;
+    width: auto;
+}
+
+header{
     text-align: center;
 }
 
-header, .botones{
-    width: 50%;
+.botones{
+    width: auto;
     text-align: center;
     margin: auto;
-    display: flex;
+
+    height: 1640px;
+    background-repeat: no-repeat;
+}
+
+
+h1{
+    text-align: center;
 }
 
 .botones button, .botones a{
     background-color: white;
     color: black;
-    padding: 15px;
+    padding: 20px 10px;
     box-shadow: 3px 3px lightseagreen;
-    margin: 10px 5px;
+    margin: 5% 35%;
+    height: 50px;
+    height: 50px;
+    display: block !important;
+    
+}
+
+img{
+    text-align: center;
+}
+
+@media(width<=375){
+    .container{
+        width: 100%;
+        height: auto;
+    }
+    .img{
+        width: 50%;
+    }
+    .botones a{
+        width: 80%;
+        padding: 2%;
+        flex-wrap: wrap;
+        margin: auto;
+    }
+}
+
+@media(width>=800){
+    .contaniner{
+        width: 100%;
+        
+    }
 }
 
 

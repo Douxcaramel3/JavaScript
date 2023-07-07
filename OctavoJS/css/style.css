@@ -1,0 +1,50 @@
+.logo img{
+    width: 20%;
+    float: left;
+    padding-left: 50px;
+}
+
+.titulo h1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:#ed7b30;
+    padding: 50px;
+    text-align: center;
+    font-size: xx-large;
+}
+
+.logo{
+max-width: 30%;
+}
+
+.titulo{
+    max-width: 70%;
+    text-align: center;
+}
+
+section{
+    clear: both;
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+    margin: auto;
+    width: 60%;
+}
+
+.boton{
+    background-color: #0f2f62;
+    padding: 10px;
+    border:1px solid #0f2f62;
+    color: white;
+}
+
+.boton:hover{
+    color: #0f2f62;
+    border:1px solid #0f2f62;
+    background-color: white;
+
+}
+
+input#peso{
+    padding: 10px 0;
+    border: none;
+    border-bottom: 1px dotted #0F2F62;
+}
