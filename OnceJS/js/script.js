@@ -24,6 +24,7 @@ window.addEventListener("load",()=>{
    
 });
 
+//Si ocurre el evento de click en el boton 1 sustituyo la bombilla por la imagen apagada 
 boton[1].addEventListener("click",()=>{
     const bombilla=document.querySelector("#bombilla");
     bombilla.src="img/pic_bulbon.gif";
