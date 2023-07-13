@@ -28,14 +28,31 @@ if (beaM<beaL){
 }else{
     console.log("La mayor es Bea López")
 }
-/*beaL.setFullYear(beaL.getFullYear()+50);
-console.log(beaL.getFullYear());
-*/
+
+console.log(beaL.getFullYear()+67);
 
 //Primero calcular edad actual
 //edad Jubilacion 67
 let hoy=new Date();
 let edadActualBeaL=hoy.getFullYear()-beaL.getFullYear();
-console.log(edadActualBeaL);
+console.log(edadActualBeaL); //31
 //Segundo sumarle
+let edadJubBeaL=67-edadActualBeaL;
+console.log(edadJubBeaL); //36
+let fechaJubile=hoy.getFullYear()+edadJubBeaL;
+console.log(fechaJubile); //2059
+
+let boton=this.document.querySelector("#boton");
+boton.addEventListener("click",function(){
+    let fechaInp=document.querySelector("#fechaInp").value;
+    console.log(fechaInp);
+    console.log(typeof(fechaInp));
+    let fechaForm=new Date(fechaInp);
+    console.log(fechaForm.toLocaleDateString());
+    
+// let fechaInp=new Date(document.querySelector("#fechaInp").value); ojo -->aquí solo se utiliza una sola variable.
+// console.log(fechaInp.toLocaleDateString());
+
+});
+
 });

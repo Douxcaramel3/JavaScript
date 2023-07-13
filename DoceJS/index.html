@@ -14,5 +14,25 @@
     <h2>La fecha de nacimiento es <span id="fNaci"></span> </h2>
     <h2>La fecha corta es <span id="fCorta"></span> </h2>
     <h2>La fecha corta es <span id="fCorta2"></span> </h2>
+
+    <input type="date" id="fechaInp">
+    <button id="boton">Enviar</button>
+
+    <hr>
+    <h1>Validación de Formularios</h1>
+    <h3>Compra de Ticket</h3>
+
+    <form action="" method="get" id="form">
+    <label for="nombre">Nombre Visitante: </label>
+    <input type="text" name="nombre" id="nombre" maxlength="50" required>
+    <label for="edad">Edad</label>
+    <input type="text" id="edad" min="18" max="105" required>
+    <label for="fechaVisita">Fecha de Visita: </label>
+    <input type="date" name="fechaVisita" id="fechaVisita" required>
+    <label for="cantidadAdultos">Nº de Entradas Adultos: </label>
+    <label for="joven">Nº Entradas Jóvenes (14-18)</label>
+    <input type="text" id="cantidadAdultos" name="cantidadAdultos">
+    <label for="cantidadNinos">Nº de Entradas Niños: </label>
+
 </body>
 </html>
