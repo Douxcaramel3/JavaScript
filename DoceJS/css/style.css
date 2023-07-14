@@ -1,0 +1,36 @@
+
+
+/*
+display:none esconde al elemento y deja libre el espacio que ocupa, es decir, si hay un elemento arriba, abajo o a un lado, este ocupa su lugar.
+display:hidden solo esconde el elemento pero deja su espacio tal y como está.
+*/
+
+#formTC, #formPP, #formBizum{
+    display: none;
+
+}
+@media (768px<= width<=1279px){/*Tablet*/
+#form{
+    width: 70%;
+    margin: auto;
+}
+}
+@media (width>=1280px){/*PC*/
+#form{
+    width: 50%;
+    margin: auto;
+}
+
+}
+@media (width<767px){ /*SmartPhones*/
+#form{
+    width: 90%;
+    margin: auto;
+}
+.listaFP{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+}
+

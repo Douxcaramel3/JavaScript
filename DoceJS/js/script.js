@@ -15,7 +15,7 @@ Existe en la programación dos palabras en ingles que representa la acción que 
 
  */
 
-fNacimiento.setFullYear(2011);
+fNacimiento.setFullYear(1990);
 this.document.querySelector("#fCorta2").innerHTML=fNacimiento.toLocaleDateString("es-es") + " " + fNacimiento.getHours();
 
 // Operaciones con fechas
@@ -52,6 +52,7 @@ boton.addEventListener("click",function(){
     
 // let fechaInp=new Date(document.querySelector("#fechaInp").value); ojo -->aquí solo se utiliza una sola variable.
 // console.log(fechaInp.toLocaleDateString());
+//ojo->aquí sólo se utiliza una sola variable
 
 });
 
