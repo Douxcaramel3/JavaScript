@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DISER S.A.</title>
+    <link rel="shortcut icon" href="img/autoconsumo.webp" type="image/x-icon">
+    <script src="js/script.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+<header class="headerSup">
+    <ul>
+   <p><span class="material-symbols-outlined" id="fecha">
+    calendar_month </span></p> <span class="material-symbols-outlined" id="hora">schedule</span>
+    </ul>
+</header>
+</div>
+
+<header class="header row">
+    <div class="logo col-4">
+        <img src="img/logo.png" alt="logotipo">
+    </div>
+    
+    <div class="menu col-8">
+
+        <ul>
+            <li><a href="index.html" title="index" target="_blank">Inicio</a></li>
+            <li><a href="index.html" title="index" target="_blank">Quienes Somos</a></li>
+            <li><a href="index.html" title="index" target="_blank">Autoconsumo</a></li>
+            <li><a href="index.html" title="index" target="_blank">Proyectos</a></li>
+            <li><a href="EficienciaEnergetica.html" title="eficiencia" target="_blank">Eficiencia Energética</a></li>
+            <li><a href="Contacto.html" title="contacto" target="_blank">Contacto</a></li>
+         </ul>
+        
+    </div>
+</header>
+
+<div class="img">
+    <img class="menu col-4" src="img/diser_logo.png" alt="logo-diser">
+    </div>
+
+    <div>
+
+    <h1>Contacta con Nosotros</h1>
+
+    <p><form action="" method="get" id="form">
+    <label for="nombre">Escribe tu nombre: </label>
+    <input type="text" name="nombre" id="nombre" maxlength="50" required></p>
+    <p><label for="email">Escribe tu email: </label>
+    <input type="mail" id="mail" required></p>
+    <p><label for="number">Pon tu teléfono: </label>
+    <input type="number" name="number" id="number" maxlength="9" minlength="9"></p>
+    <p><label for="texto">Comentarios: </label>
+    <input type="text" name="texto" id="texto" maxlength="150" minlength="25"></p> 
+</div>
+
+<form onsubmit="return pregunta()">
+    <button type="submit">Enviar</button>
+  </form>
+
+    <div>
+    <footer class="footerSup">
+        <ul>
+            <p>Email: iser@diser.com</p>
+            <p>Teléfono: +34 6215 259 263</p>
+            <p>Dirección: Calle Zancara, 34. 13620 Pedro Muñoz. Ciudad Real. España.</p>
+        </ul>
+    </footer>
+    </div>
+</body>
+</html>

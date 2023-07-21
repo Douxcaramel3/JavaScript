@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ZOO DATW</title>
     <link rel="shortcut icon" href="img/iconos/favicon.webp" type="image/x-icon">
+    <script src="js/script.js"></script>
     <link rel="stylesheet" href="css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -33,18 +34,37 @@
             
             <div class="menu col-8">
         
-             <ul>
-                <li>Inicio</li>
-                <li>Conocenos</li>
-                <li>Entradas</li>
-             </ul>
+                <button class="tablink" onclick="openPage()"> <a href="index.html">Inicio</button></a>
+                <button class="tablink" onclick="openPage()" id="defaultOpen"> <a href="fotos.html">Fotos</button></a>
+                <button class="tablink" onclick="openPage()">Contacto</button>
+                <button class="tablink" onclick="openPage()">Sobre nosotros</button>
+                </div>
+
                 
-            </div>
+                <div id="Home" class="tabcontent">
+                  <h3>Home</h3>
+                  <p>Home is where the heart is..</p>
+                </div>
+                
+                <div id="News" class="tabcontent">
+                  <h3>News</h3>
+                  <p>Some news this fine day!</p> 
+                </div>
+                
+                <div id="Contact" class="tabcontent">
+                  <h3>Contact</h3>
+                  <p>Get in touch, or swing by for a cup of coffee.</p>
+                </div>
+                
+                <div id="About" class="tabcontent">
+                  <h3>About</h3>
+                  <p>Who we are and what we do.</p>
+                </div>
         </header>
     </div>
 
     <div class="col-12 imagen">
-        <img src="img/jimmi-el-mono.webp" alt="Mono comiendo cebolleta">
+        <img src="img/lion-face.jpg" alt="Cara de un león">
         <div class="centrado col-4">
            <h1> Ven y disfruta de un día de Naturaleza en compañía.</h1>
            <p> Cerca de 2.000 animales de más de 300 especies y 1.300 plantas de cerca de 320 especies botánicas. </p>
@@ -54,13 +74,7 @@
         </div>
     </div>
 
-<div class="carruselIMG col-8">
-    <img src="img/adrian-gato.webp" alt="">
-    <img src="img/marta-leonmarino.webp" alt="">
-    <img src="img/ana-caballo.webp" alt="">
-    <img src="img/bea-toro.webp" alt="">
 
-</div>
 
     
 </body>
