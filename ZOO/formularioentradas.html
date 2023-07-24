@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COMPRA TUS ENTRADAS</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/scriptform.js"></script>
+</head>
+<body>
+    <h1>Compra tus Entradas</h1>
+
+    <p><form action="" method="get" id="form">
+    <label for="nombre">Nombre Visitante: </label>
+    <input type="text" name="nombre" id="nombre" maxlength="50" required></p>
+    <label for="email">Escribe tu email:</label>
+    <input type="email" name="email" id="email" required>
+    <p><label for="edad">Edad</label>
+    <input type="text" id="edad" min="18" max="105" required></p>
+    <p><label for="fechaVisita">Fecha de Visita: </label>
+    <input type="date" name="fechaVisita" id="fechaVisita" required></p>
+   <p> <label for="cantidadAdultos">Nº de Entradas Adultos: </label>
+    <input type="text" id="cantidadAdultos" name="cantidadAdultos" min="0" max="200"></p>
+    <p><label for="cantidadNinos">Nº de Entradas Niños: </label>
+    <input type="number" id="cantidadNinos" name="cantidadNinos" min="0" max="200"></p>
+    <p><label for="fPago">Forma de pago:</label>
+    <input type="radio" name="fPago" value="visa" class="listaFP">Visa
+    <input type="radio" name="fPago" value="master" class="listaFP">MasterCard
+    <input type="radio" name="fPago" value="paypal" class="listaFP">PayPal
+    <input type="radio" name="fPago" value="bizum" class="listaFP">Bizum</p>
+
+<div id="formTC">
+    <label for="nombreTC">Nombre Titular:</label>
+    <input type="text" id="titular" name="titular" required>
+    <label for="nTC">Número de Tarjeta</label>
+    <input type="text" id="nTC" maxlength="16" minlength="16">
+    <label for="CVV"></label>
+    <input type="text" id="CVV" name="CVV" maxlength="3" minlength="3">
+</div>
+
+<div id="formPP">
+    <label for="email">Email de PayPal: </label>
+    <input type="email" id="emailPP" name="emailPP">
+    <label for="passPP">Contraseña:</label>
+    <input type="password" id="passPP" name="passPP">
+</div>
+
+<div id="formBizum">
+    <label for="nombre">Nombre de Bizum: </label>
+    <input type="text" id="nombreBizum" name="nombreBizum" required>
+    <label for="conceptoB">Concepto del Bizum: </label>
+    <input type="concepto" id="conceptoB" name="conceptoB" required>
+</div>
+<p>
+    <input type="submit" value="Enviar">
+
+
+
+</body>
+</html>
