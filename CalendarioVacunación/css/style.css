@@ -1,0 +1,16 @@
+*{
+    text-align: center;
+    font-style: normal;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana;
+    font-size:x-large
+}
+
+body{
+    background-color: rgba(233, 233, 238, 0.733);
+    color: rgb(39, 37, 37);
+}
+
+img{
+    border: 1px solid black;
+
+}
