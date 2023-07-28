@@ -32,3 +32,14 @@ window.addEventListener("load", function(){
     })
   
   })
+
+  function validarFormulario(){
+    //instrucciones para validar
+    alert("validando....")
+  }
+    window.addEventListener("load",()=>{
+  //son las funciones que voy a llamar cuando la página cargue
+  let boton=document.querySelector("#boton");
+  boton.addEventListener("click", validarFormulario);
+
+    })

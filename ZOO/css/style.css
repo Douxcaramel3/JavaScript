@@ -2,6 +2,17 @@
     box-sizing: border-box;
 }
 
+a{
+  text-decoration: none;
+  color:#222;
+}
+
+a:hover{
+  color:#ff7300;
+  text-decoration: dotted;
+  letter-spacing: 2px;
+}
+
 body, html {
   height: 100%;
   margin: 0;
@@ -109,6 +120,7 @@ body, html {
     text-decoration: wavy;
     font-style: italic;
 }
+
 
  /* For mobile phones: */
  [class*="col-"] {

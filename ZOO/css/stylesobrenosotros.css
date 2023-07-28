@@ -1,0 +1,17 @@
+.galeria{
+    display: flex;
+}
+
+.galeria div{
+    width: 33%;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.imagen{
+    height: 250px;
+    width: auto;
+}

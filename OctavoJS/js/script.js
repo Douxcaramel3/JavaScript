@@ -76,3 +76,67 @@ console.log("b=" + b);
 let r3=sumar2();
 console.log(r3);
 
+
+
+// EJERCICIO DE EXAMEN
+
+//primero, declaramos el iva como una constante y global
+const iva2=1.21;
+let valor
+
+/*1º función es llamada desde html y enviada
+a. validar el dato indroducido (2ª función)
+a.1. sie el dato es incorrecto, envia mensaje de error.
+a.2. si el dato es correcto, envía el dato a la 3º1 función calcularprecio, que mostrará el resultado del cálculo*/
+
+function calcular(){
+    let peso=document.getElementById("peso").value;
+    validarDatos(peso);
+    if(validarDatos(peso)){
+        calcularPeso(peso);
+    }
+}
+
+function validarDatos(peso){
+    if(isNaN(peso)){
+        document.getElementById("resultado").innerHTML="Por favor, escriba el peso en números"
+        }else{
+            return true;
+        }
+    }
+
+    function calcularPeso(peso){
+        if (peso<=1){
+            valor=(11.82*iva2).toFixed(2);
+        }
+    
+        if(peso>1 && peso<=5){
+            valor=(14.59*iva2).toFixed(2);
+        }
+    
+        if(peso>5 && peso<=10){
+            valor=(19.09*iva2).toFixed(2);
+        }
+    
+        if(peso>10 && peso<=15){
+            valor=(22.73*iva2).toFixed(2);
+        }
+    
+        if(peso>15 && peso<=20){
+            valor=(27.69*iva2).toFixed(2);
+        }
+    
+        if(peso>20 && peso<=25){
+            valor=(32.77*iva2).toFixed(2);
+        }
+    
+        if(peso>25 && peso<=30){
+            valor=(37.73*iva2).toFixed(2);
+        }
+
+        if(peso>30){
+        document.getElementById("resultado").innerHTML="Debe consultar con la oficina";
+        }else{
+     document.getElementById("resultado").innerHTML="El precio final es " + valor+ "€";
+    }
+    }

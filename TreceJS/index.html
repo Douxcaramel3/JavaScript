@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js"></script>
+    <script src="js/scriptIMC.js"></script>
+</head>
+<body>
+    <form action="">
+      <p>  
+        <label for="nombre">Nombre de Usuario: </label>
+        <input type="text" class="entrada" id="nombre">
+      </p>
+
+      <p>
+        <label for="">Contraseña: </label>
+        <input type="password" name="pass" id="pass" class="entrada">
+      </p>
+
+      <p>
+        <input type="button" value="Registrar" class="boton">
+      </p>
+
+    </form>
+
+    <p id="mensaje"></p>
+
+
+
+
+    <h1>Calculadora de IMC</h1>
+  <form>
+    <label for="peso">Peso (kg):</label>
+    <input type="number" name="peso" id="peso" required>
+
+    <label for="altura">Altura (metros):</label>
+    <input type="number" name="altura" id="altura" required>
+
+    <button type="button" onclick="calcularIMC()">Calcular IMC</button>
+  </form>
+
+  <div id="resultado"></div>
+  <h3 id="msnIMC"></h3>
+
+
+</body>
+</html>

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="js/scriptcontacto.js"></script>
+    <link rel="stylesheet" href="css/stylecontacto.css">
+</head>
+<body>
+    <h3>Contact Form</h3>
+
+    <div class="container">
+      <form action="/action_page.php">
+        <label for="fname">Nombre</label>
+        <input type="text" id="fname" name="firstname" placeholder="Tu nombre...">
+    
+        <label for="lname">Apellidos</label>
+        <input type="text" id="lname" name="lastname" placeholder="Tus apellidos...">
+    
+        <label for="formCto">Preferencia de Contacto</label>
+        <select id="formCto" name="formCto">
+            <option value=""></option>
+          <option value="telefono">Teléfono</option>
+          <option value="email">Email</option>
+          <option value="correo">Correo Postal</option>
+        </select>
+
+        <div class="telOculto">
+            <label for="telefono">Telefono</label>
+            <input type="tel" id="telefono" name="telefono" placeholder="Pon tu teléfono" class="entrada">
+        </div>
+
+        <div class="emailOculto">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="Escribe tu correo electrónico" class="entrada">
+        </div>
+    
+        <div class="correoOculto">
+            <label for="direccion">Dirección</label>
+            <input type="text" id="direccion" name="direccion" placeholder="Escribe tu dirección" class="entrada">
+        </div>
+
+        <label for="subject">Mensaje</label>
+        <textarea id="subject" name="subject" placeholder="Cuéntanos..." style="height:200px"></textarea>
+    
+        <button type="button" id="boton">Enviar</button>
+      </form>
+    </div>
+
+    <p id="mensaje"></p>
+
+</body>
+</html>
