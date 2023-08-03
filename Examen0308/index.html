@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>USHIP Envíos baratos</title>
+    <script src="js/script.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="img/favicon.png" type="png">
+
+
+</head>
+
+
+<body>
+
+   
+    <ul>
+         <img class="logo" src="img/logo.png" alt="Logo de USHIP">
+        <li><a class="encabezado" href="index.html">Inicio</a></li>
+        <li><a href="">Envío Nacional</a></li>
+        <li><a href="">Envío Internacional</a></li>
+        <li><a href="">Contacto</a></li>
+      </ul>
+
+      <div class="contenedor">
+        <img src="img/enviar-paqueteria.png" alt="Imagen de paquetes">
+       <div class="centrado">
+    <form>
+        <label for="Peso">Peso (kg):</label>
+        <Select id="peso" name="peso" class="peso">
+        <option value=""></option>
+        <option value="peso1">Hasta 0,5kg</option>
+        <option value="peso2">Hasta 5kg</option>
+        <option value="peso3">Hasta 10kg</option>
+        <option value="peso4">Hasta 20kg</option>
+        </Select>
+      
+    
+        <label for="Destino">¿Dónde lo llevamos? </label>
+            <select id="destino" name="destino" class="destino">
+                <option value=""></option>
+              <option value="localidad">A tu localidad</option>
+              <option value="provincia">A tu provincia</option>
+              <option value="comAutonoma">A tu comunidad Autonoma</option>
+              <option value="balearesCanarias">A Baleares o Canarias</option>
+              <option value="ceutaMelilla">A Ceuta o Melilla</option>
+              <option value="restoEspaña">Al resto de España</option>
+              <option value="europa">A Europa</option>
+              <option value="restoMundo">En el Resto del Mundo</option>
+              
+            </select>
+    
+      </form>
+    
+      <button onclick="calcularEnvio()">Calcular Envío</button>
+    
+      <p id="resultado"></p>
+</div>
+     </div>
+</body>
+</html>
