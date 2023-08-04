@@ -32,7 +32,7 @@ if (!tarifasEnvio.hasOwnProperty(destino)) {
 
   // Verificar que el peso sea correcto
   if (!precioPeso.hasOwnProperty(peso)){
-    resultadoElement.textContent="Elija un precio correcto"
+    resultadoElement.textContent="Elija un peso correcto";
     return;
   }
 
